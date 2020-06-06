@@ -1,0 +1,16 @@
+.hero{
+    background-color: rgb(205, 205, 205);
+    height: 90vh;
+    width: 100%;
+    background-image: url("../img/bg-hero.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.text-white{
+    color: white;
+}
+
+.line-30{
+    line-height: 30px;
+}
