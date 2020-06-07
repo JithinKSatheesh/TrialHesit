@@ -5,6 +5,7 @@
     background-image: url("../img/bg-hero3.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 .text-white{
@@ -16,6 +17,7 @@
     background-image: url("../img/bg-hero3.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 .line-30{
@@ -26,6 +28,7 @@
     background-image: url("../img/bg-hero4.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 .rounded-r{
