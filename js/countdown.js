@@ -18,8 +18,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "<small> days : </small> " + hours + " <small> hours : </small>  "
-  + minutes + " <small> minutes : </small> " + seconds + "<small> seconds </small>  ";
+  document.getElementById("demo").innerHTML = "<div class='p-2'>"+ days + "<br> <small> days </small> </div>" + "<div class='p-2'>"+ hours + " <br> <small> hours </small> </div>" +
+  "<div class='p-2'>"+ minutes + "<br><small> minutes </small> </div>" +  "<div class='p-2'>"+ seconds + "<br><small> seconds </small></div>";
 
   // If the count down is finished, write some text
   if (distance < 0) {
@@ -27,3 +27,19 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+// =====================================================
+// smooth scrool
+// =====================================================
+
+$('.smooth-goto').on('click', function() {  
+  $('html, body').animate({scrollTop: $(this.hash).offset().top - 50}, 1000);
+  return false;
+  });
+  
+
+
+
+
+  
